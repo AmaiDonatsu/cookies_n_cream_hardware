@@ -808,7 +808,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESP32-C6-DEVKITC-1-N8:ESP32-C6-DEVKITC-1-N8"
+		(symbol "ESP32-C6-DEVKITC-1-N8_1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -817,24 +817,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U1"
-				(at 0 27.94 0)
+			(property "Reference" "U"
+				(at -15.24 23.622 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "ESP32-C6-DEVKITC-1-N8"
-				(at 0 25.4 0)
+				(at -15.24 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" "ESP32-C6-DEVKITC-1-N8:MODULE_ESP32-C6-DEVKITC-1-N8"
@@ -1004,7 +1006,7 @@
 					(justify bottom)
 				)
 			)
-			(symbol "ESP32-C6-DEVKITC-1-N8_0_0"
+			(symbol "ESP32-C6-DEVKITC-1-N8_1_0_0"
 				(rectangle
 					(start -15.24 -20.32)
 					(end 15.24 22.86)
@@ -1014,6 +1016,24 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin power_in line
+					(at -20.32 20.32 0)
+					(length 5.08)
+					(name "ESP_3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
 					)
 				)
 				(pin input line
@@ -1567,26 +1587,6 @@
 						)
 					)
 					(number "J3_16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESP32-C6-DEVKITC-1-N8_1_0"
-				(pin power_out line
-					(at -20.32 20.32 0)
-					(length 5.08)
-					(name "ESP_3V3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J1_1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3557,6 +3557,311 @@
 		)
 	)
 	(symbol
+		(lib_name "ESP32-C6-DEVKITC-1-N8_1")
+		(lib_id "ESP32-C6-DEVKITC-1-N8:ESP32-C6-DEVKITC-1-N8")
+		(at 134.62 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "782c51b0-e8ea-4328-adc9-eee9ddb29571")
+		(property "Reference" "U2"
+			(at 134.62 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-C6-DEVKITC-1-N8"
+			(at 134.62 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ESP32-C6-DEVKITC-1-N8:MODULE_ESP32-C6-DEVKITC-1-N8"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "The ESP32-C6-DEVKITC-1-N8 from Espressif Systems is a development board designed for RF, RFID, and wireless applications. Built around the ESP32-C6-WROOM-1 module, it supports multiple connectivity options including 802.11 b/g/n/ax Wi-Fi, Bluetooth® (BLE), and 802.15.4 for Thread and Zigbee® protocols. The board is powered by the ESP32-C6 chip with 8MB SPI flash, offering advanced processing power and efficient memory management. It features GPIO ports for extensive interfacing, along with a USB Type-C™ to UART port for power and communication. The board also includes a USB-to-UART bridge, pin header, and boot/reset buttons, operating at 3.3V with a 5V to 3.3V power regulator. This development board is ideal for exploring a wide range of wireless applications, including IoT, smart home devices, and RF communication projects."
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Espressif Systems"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-C6-DEVKITC-1-N8/Espressif+Systems/view-part/?ref=eda"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.3"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-C6-DEVKITC-1-N8/Espressif+Systems/view-part/?ref=snap"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "ESP32-C6-DEVKITC-1-N8"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12616382&manufacturer=Espressif Systems&part_name=ESP32-C6-DEVKITC-1-N8&search_term=esp32 c6"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Espressif Systems"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "J1_6"
+			(uuid "6678f8ac-6789-46e7-acb6-b0a2f5b9706a")
+		)
+		(pin "J3_15"
+			(uuid "95eb486a-1cd4-4338-9407-c83cc6151641")
+		)
+		(pin "J1_4"
+			(uuid "35bedb91-166c-45af-8a58-fe05d6a5ffab")
+		)
+		(pin "J3_14"
+			(uuid "1f6cc397-23b1-41b2-aac1-d80182737ef2")
+		)
+		(pin "J3_1"
+			(uuid "6456ce7c-cb30-435e-a9a4-bac3946ec8b9")
+		)
+		(pin "J3_13"
+			(uuid "d093a23f-4bf4-43bb-8efd-38d513272304")
+		)
+		(pin "J3_11"
+			(uuid "e601db2c-4d27-4490-8e4b-6da6c90974de")
+		)
+		(pin "J3_10"
+			(uuid "1ba1091a-0adc-4d84-952e-49689f28fff8")
+		)
+		(pin "J3_8"
+			(uuid "688d5150-e739-4360-a727-3d5452323255")
+		)
+		(pin "J3_7"
+			(uuid "d2b4684e-d726-41ee-8089-4c6883c8a684")
+		)
+		(pin "J3_6"
+			(uuid "1e396523-0e7b-4432-b4b1-95860383b55d")
+		)
+		(pin "J3_5"
+			(uuid "4b2f4215-23b9-45df-95e1-2c5782ac8764")
+		)
+		(pin "J3_4"
+			(uuid "fcb5575c-57e3-40b9-b990-509e4e875bb2")
+		)
+		(pin "J3_3"
+			(uuid "5411001a-4589-4d9c-b548-aa313625ff7b")
+		)
+		(pin "J3_2"
+			(uuid "e73bc6de-246f-4dbc-98a4-f8c01722fd9d")
+		)
+		(pin "J3_16"
+			(uuid "9bc471f3-03f6-441f-b818-e0280e0a8b7f")
+		)
+		(pin "J3_12"
+			(uuid "d35afd7a-c1cd-49e3-aeab-eb93f5fd9c16")
+		)
+		(pin "J3_9"
+			(uuid "6529f23c-6c91-4d0f-8ab4-7e5b71a4a435")
+		)
+		(pin "J1_7"
+			(uuid "12ff0a3b-9280-4183-9329-b13f0182a883")
+		)
+		(pin "J1_15"
+			(uuid "8e51e41e-f756-433f-af13-a3c733f7efa7")
+		)
+		(pin "J1_16"
+			(uuid "2d6cf2fe-2766-4032-ad09-3d2d9644fc9a")
+		)
+		(pin "J1_13"
+			(uuid "18910c4f-456c-4c1c-83bb-bde9d671b7a2")
+		)
+		(pin "J1_11"
+			(uuid "e9308176-0e20-4277-af74-c2f9d69c6b46")
+		)
+		(pin "J1_9"
+			(uuid "e36badc9-5210-4741-8b91-ac4a0a465562")
+		)
+		(pin "J1_8"
+			(uuid "4cdfa5ac-ffa3-45be-bc77-399ca9cb3d67")
+		)
+		(pin "J1_3"
+			(uuid "bdb25113-7770-4137-b096-62e5e22e112e")
+		)
+		(pin "J1_10"
+			(uuid "cc6ce519-ac86-43ea-9500-bc80f4b09449")
+		)
+		(pin "J1_12"
+			(uuid "c66266fe-6e9b-4e8e-b336-16f0a5b95dc2")
+		)
+		(pin "J1_2"
+			(uuid "fdcb2d12-ddf9-45d4-a553-7db34c4929f6")
+		)
+		(pin "J1_1"
+			(uuid "2b4216ec-e512-4fd3-b3de-489efad2fbd8")
+		)
+		(pin "J1_5"
+			(uuid "cc166ae7-fe78-4192-86e0-2731c99390cc")
+		)
+		(pin "J1_14"
+			(uuid "a03581a9-c960-4a20-8cb5-b0387f89692e")
+		)
+		(instances
+			(project "cookies_n_cream_hardware"
+				(path "/f6272b4d-74c6-464d-84cf-1b3889f5660d"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 134.62 95.25 270)
 		(unit 1)
@@ -4025,310 +4330,6 @@
 			(project "cookies_n_cream_hardware"
 				(path "/f6272b4d-74c6-464d-84cf-1b3889f5660d"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ESP32-C6-DEVKITC-1-N8:ESP32-C6-DEVKITC-1-N8")
-		(at 134.62 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf1d4d44-8ed3-4ff4-b161-ab5b8812e11c")
-		(property "Reference" "U1"
-			(at 134.62 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESP32-C6-DEVKITC-1-N8"
-			(at 134.62 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical"
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "The ESP32-C6-DEVKITC-1-N8 from Espressif Systems is a development board designed for RF, RFID, and wireless applications. Built around the ESP32-C6-WROOM-1 module, it supports multiple connectivity options including 802.11 b/g/n/ax Wi-Fi, Bluetooth® (BLE), and 802.15.4 for Thread and Zigbee® protocols. The board is powered by the ESP32-C6 chip with 8MB SPI flash, offering advanced processing power and efficient memory management. It features GPIO ports for extensive interfacing, along with a USB Type-C™ to UART port for power and communication. The board also includes a USB-to-UART bridge, pin header, and boot/reset buttons, operating at 3.3V with a 5V to 3.3V power regulator. This development board is ideal for exploring a wide range of wireless applications, including IoT, smart home devices, and RF communication projects."
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Espressif Systems"
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-C6-DEVKITC-1-N8/Espressif+Systems/view-part/?ref=eda"
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "1.3"
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-C6-DEVKITC-1-N8/Espressif+Systems/view-part/?ref=snap"
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "ESP32-C6-DEVKITC-1-N8"
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12616382&manufacturer=Espressif Systems&part_name=ESP32-C6-DEVKITC-1-N8&search_term=esp32 c6"
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Espressif Systems"
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "J1_5"
-			(uuid "073f37f9-d4db-41e5-bcc0-ad8290b7c14e")
-		)
-		(pin "J1_2"
-			(uuid "c956ebf7-e1ca-4a67-ba45-e18f806bdcb8")
-		)
-		(pin "J1_3"
-			(uuid "b1d9ba55-3cc4-47d8-a3fc-ceae1b2be35e")
-		)
-		(pin "J1_4"
-			(uuid "22797d25-f765-4af4-b976-007f4ea2f15b")
-		)
-		(pin "J1_1"
-			(uuid "383f95b2-a0b6-4127-b646-339e5be8b977")
-		)
-		(pin "J3_16"
-			(uuid "0b803c45-b896-4aa9-ad03-f350710b72dc")
-		)
-		(pin "J3_2"
-			(uuid "723dcf58-92cc-4e7e-bad7-7de647866830")
-		)
-		(pin "J3_3"
-			(uuid "86eacf92-4a04-4b08-aa56-07d2317ff940")
-		)
-		(pin "J3_4"
-			(uuid "b1c0aabc-69fe-4913-8d8c-1c1513774d6b")
-		)
-		(pin "J3_5"
-			(uuid "803753f3-e51b-44ea-8d53-d4e3e789cfd2")
-		)
-		(pin "J3_6"
-			(uuid "b2476074-63c8-4237-b5f4-981fe6b90116")
-		)
-		(pin "J3_7"
-			(uuid "4dbd3b3b-eb21-459c-8dd3-d0c04dbb12ac")
-		)
-		(pin "J3_8"
-			(uuid "d054d593-dc6d-48de-9ea8-6f1d3bd3481f")
-		)
-		(pin "J1_12"
-			(uuid "ebad0c27-87cb-4351-a81b-60915b4f99fc")
-		)
-		(pin "J1_13"
-			(uuid "846bbb6c-59e8-4f8e-95b3-fe3532d5f514")
-		)
-		(pin "J1_14"
-			(uuid "5b9d31d2-3259-4f4e-9c53-289864c887fe")
-		)
-		(pin "J1_15"
-			(uuid "c07dc021-c509-406a-b3ba-3f859678d2bb")
-		)
-		(pin "J1_16"
-			(uuid "48afbf72-f235-4708-8a6b-bdcc19ce6fa0")
-		)
-		(pin "J3_1"
-			(uuid "ce18a14b-f9f4-4a85-8ee6-9faf21eae436")
-		)
-		(pin "J3_9"
-			(uuid "b752c83c-a932-4e9a-90e7-e1aa33ab8ee7")
-		)
-		(pin "J3_10"
-			(uuid "0f30448a-297b-45d1-a2fc-50fa030e45fe")
-		)
-		(pin "J3_11"
-			(uuid "392b22af-e805-40d5-b60a-2c9d88dc0022")
-		)
-		(pin "J3_12"
-			(uuid "5bc90e23-c88b-466c-b576-fc5ad0746fd0")
-		)
-		(pin "J3_13"
-			(uuid "7e881475-921f-4278-a733-301307f94d85")
-		)
-		(pin "J3_14"
-			(uuid "03b8b87e-49aa-40a0-9249-e19ee4d5c69c")
-		)
-		(pin "J3_15"
-			(uuid "7c7f2d89-42c9-4b86-9092-bf2a4097d61d")
-		)
-		(pin "J1_7"
-			(uuid "c5b74b52-5299-4764-bad1-892f8db1ff89")
-		)
-		(pin "J1_8"
-			(uuid "ccda2ca7-8711-42cb-9abf-1c6c2b563d46")
-		)
-		(pin "J1_9"
-			(uuid "669c8a61-8200-41fc-bb25-5da43fd16596")
-		)
-		(pin "J1_10"
-			(uuid "835ee84b-bf3a-4abd-a404-ce06dbccb918")
-		)
-		(pin "J1_11"
-			(uuid "ad694fc9-4b62-4a16-8022-05da9ea880ee")
-		)
-		(pin "J1_6"
-			(uuid "36dc9c4f-a76f-44d7-9c62-8134062924f6")
-		)
-		(instances
-			(project "cookies_n_cream_hardware"
-				(path "/f6272b4d-74c6-464d-84cf-1b3889f5660d"
-					(reference "U1")
 					(unit 1)
 				)
 			)
