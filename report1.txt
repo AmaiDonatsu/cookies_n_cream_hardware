@@ -1,0 +1,91 @@
+Info: Procesando el símbolo 'D1:Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal'.
+Info: Procesando el símbolo 'U2:ESP32-C6-DEVKITC-1-N8:MODULE_ESP32-C6-DEVKITC-1-N8'.
+Info: Procesando el símbolo 'R4:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Procesando el símbolo 'R3:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Procesando el símbolo 'R2:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Procesando el símbolo 'R1:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Procesando el símbolo 'J6:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Procesando el símbolo 'J5:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Procesando el símbolo 'J3:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Procesando el símbolo 'J2:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Procesando el símbolo 'J1:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Procesando el símbolo 'J4:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Procesando el símbolo 'C1:Capacitor_THT:CP_Radial_D5.0mm_P2.00mm'.
+Info: Procesando el símbolo 'F1:Fuse:Fuse_BelFuse_0ZRE0012FF_L8.3mm_W3.8mm'.
+U2 pin J3_4 conectado a unconnected-(U2-GPIO15-PadJ3_4).
+Añadir red unconnected-(U2-GPIO15-PadJ3_4).
+U2 pin J3_9 conectado a unconnected-(U2-GPIO19-PadJ3_9).
+Añadir red unconnected-(U2-GPIO19-PadJ3_9).
+U2 pin J1_13 conectado a unconnected-(U2-GPIO3-PadJ1_13).
+Añadir red unconnected-(U2-GPIO3-PadJ1_13).
+U2 pin J1_12 conectado a unconnected-(U2-GPIO2-PadJ1_12).
+Añadir red unconnected-(U2-GPIO2-PadJ1_12).
+U2 pin J1_15 conectado a GND.
+U2 pin J3_15 conectado a GND.
+U2 pin J1_8 conectado a unconnected-(U2-GPIO1-PadJ1_8).
+Añadir red unconnected-(U2-NC_J1_16-PadJ1_16).
+Añadir red unconnected-(U2-GPIO1-PadJ1_8).
+U2 pin J1_14 conectado a unconnected-(U2-VCC_5V-PadJ1_14).
+Añadir red unconnected-(U2-VCC_5V-PadJ1_14).
+U2 pin J1_7 conectado a unconnected-(U2-GPIO0-PadJ1_7).
+Red no utilizada Net-(U1-GPIO7) eliminada.
+Añadir red unconnected-(U2-GPIO0-PadJ1_7).
+U2 pin J1_16 conectado a unconnected-(U2-NC_J1_16-PadJ1_16).
+U2 pin J1_4 conectado a Net-(J5-Pin_1).
+Red no utilizada Net-(U1-GPIO6) eliminada.
+Red no utilizada Net-(U1-ESP_3V3) eliminada.
+Se actualizaron los metadatos de unidad de U2.
+U2 pin J1_9 conectado a unconnected-(U2-GPIO8-PadJ1_9).
+Añadir red unconnected-(U2-GPIO8-PadJ1_9).
+U2 pin J1_3 conectado a Net-(J6-Pin_1).
+U2 pin J1_6 conectado a Net-(U2-GPIO7).
+U2 pin J1_5 conectado a Net-(U2-GPIO6).
+Añadir red unconnected-(U2-CHIP_PU-PadJ1_2).
+U2 pin J3_14 conectado a unconnected-(U2-GPIO12-PadJ3_14).
+Añadir red unconnected-(U2-GPIO12-PadJ3_14).
+U2 pin J1_11 conectado a unconnected-(U2-GPIO11-PadJ1_11).
+Añadir red unconnected-(U2-GPIO11-PadJ1_11).
+U2 pin J3_11 conectado a unconnected-(U2-GPIO9-PadJ3_11).
+Añadir red unconnected-(U2-GPIO9-PadJ3_11).
+U2 pin J3_1 conectado a GND.
+U2 pin J1_2 conectado a unconnected-(U2-CHIP_PU-PadJ1_2).
+Añadir U2 (huella 'ESP32-C6-DEVKITC-1-N8:MODULE_ESP32-C6-DEVKITC-1-N8').
+Añadir red unconnected-(U2-GPIO13-PadJ3_13).
+U2 pin J3_10 conectado a unconnected-(U2-GPIO18-PadJ3_10).
+Añadir red unconnected-(U2-GPIO18-PadJ3_10).
+Archivo de hoja U2 actualizado a 'cookies_n_cream_hardware.kicad_sch'.
+Nombre de hoja U2 actualizado a '/'.
+Actualizados U2 campos.
+Asociación de símbolos U2 actualizada de  a /782c51b0-e8ea-4328-adc9-eee9ddb29571.
+Valor U2 cambiado de MODULE_ESP32-C6-DEVKITC-1-N8 a ESP32-C6-DEVKITC-1-N8.
+Indicador de referencia cambiado de REF** a U2.
+U2 pin J3_13 conectado a unconnected-(U2-GPIO13-PadJ3_13).
+R4 pin 1 reconectado de Net-(U1-GPIO6) a Net-(U2-GPIO6).
+R3 pin 2 reconectado de Net-(U1-GPIO6) a Net-(U2-GPIO6).
+Añadir red Net-(U2-GPIO6).
+R2 pin 1 reconectado de Net-(U1-GPIO7) a Net-(U2-GPIO7).
+R1 pin 2 reconectado de Net-(U1-GPIO7) a Net-(U2-GPIO7).
+Añadir red Net-(U2-GPIO7).
+F1 pin 2 reconectado de Net-(U1-ESP_3V3) a Net-(U2-ESP_3V3).
+Añadir red Net-(U2-ESP_3V3).
+Añadir red unconnected-(U2-UART_RXD-PadJ3_3).
+Añadir red unconnected-(U2-GPIO20-PadJ3_8).
+U2 pin J3_6 conectado a unconnected-(U2-GPIO22-PadJ3_6).
+Añadir red unconnected-(U2-GPIO22-PadJ3_6).
+U2 pin J3_16 conectado a unconnected-(U2-NC_J3_16-PadJ3_16).
+Añadir red unconnected-(U2-NC_J3_16-PadJ3_16).
+U2 pin J3_12 conectado a GND.
+U2 pin J1_1 conectado a Net-(U2-ESP_3V3).
+U2 pin J3_3 conectado a unconnected-(U2-UART_RXD-PadJ3_3).
+U2 pin J3_8 conectado a unconnected-(U2-GPIO20-PadJ3_8).
+U2 pin J3_7 conectado a unconnected-(U2-GPIO21-PadJ3_7).
+Añadir red unconnected-(U2-GPIO21-PadJ3_7).
+U2 pin J3_5 conectado a unconnected-(U2-GPIO23-PadJ3_5).
+Añadir red unconnected-(U2-GPIO23-PadJ3_5).
+U2 pin J3_2 conectado a unconnected-(U2-UART_TXD-PadJ3_2).
+Añadir red unconnected-(U2-UART_TXD-PadJ3_2).
+U2 pin J1_10 conectado a unconnected-(U2-GPIO10-PadJ1_10).
+Añadir red unconnected-(U2-GPIO10-PadJ1_10).
+
+
+Info: Número de avisos: 0, errores: 0.
