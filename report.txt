@@ -1,0 +1,31 @@
+Info: Procesando el símbolo 'C1:'.
+Info: Procesando el símbolo 'R1:'.
+Info: Procesando el símbolo 'J6:'.
+Info: Procesando el símbolo 'R2:'.
+Info: Procesando el símbolo 'J5:'.
+Info: Procesando el símbolo 'J4:'.
+Info: Procesando el símbolo 'R3:'.
+Info: Procesando el símbolo 'J3:'.
+Info: Procesando el símbolo 'J2:'.
+Info: Procesando el símbolo 'R4:'.
+Info: Procesando el símbolo 'J1:'.
+Info: Procesando el símbolo 'F1:'.
+Info: Procesando el símbolo 'U1:ESP32-C6-DEVKITC-1-N8:MODULE_ESP32-C6-DEVKITC-1-N8'.
+Info: Procesando el símbolo 'D1:'.
+Error: No puede añadirse R3 (no se ha asignado huella).
+Error: No puede añadirse R4 (no se ha asignado huella).
+Error: No puede añadirse R2 (no se ha asignado huella).
+Error: No puede añadirse R1 (no se ha asignado huella).
+Error: No puede añadirse U1 (no se ha encontrado la huella 'ESP32-C6-DEVKITC-1-N8:MODULE_ESP32-C6-DEVKITC-1-N8').
+Error: No puede añadirse J6 (no se ha asignado huella).
+Error: No puede añadirse J5 (no se ha asignado huella).
+Error: No puede añadirse J4 (no se ha asignado huella).
+Error: No puede añadirse J3 (no se ha asignado huella).
+Error: No puede añadirse J2 (no se ha asignado huella).
+Error: No puede añadirse J1 (no se ha asignado huella).
+Error: No puede añadirse F1 (no se ha asignado huella).
+Error: No puede añadirse D1 (no se ha asignado huella).
+Error: No puede añadirse C1 (no se ha asignado huella).
+
+
+Info: Número de avisos: 0, errores: 14.
