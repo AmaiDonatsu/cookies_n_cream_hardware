@@ -4,3 +4,7 @@
 fp-info-cache
 .history
 *.lck
+*.kicad_pro.lck
+*.gbr
+*.drl
+*.gbrjob
